@@ -23,8 +23,16 @@ const examples = [
     to: "/proptype"
   },
   {
-    name: "Routing",
-    to: "/routing"
+    name: "BrowserRoute",
+    to: "/browser-routing"
+  },
+  {
+    name: "Redux",
+    to: "/redux"
+  },
+  {
+    name: "Multi-Language",
+    to: "multi-language"
   }
 ];
 
