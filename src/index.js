@@ -33,6 +33,9 @@ const examples = [
     name: "Forms",
     to: "/forms"
   }, {
+    name: "React-Redux Form",
+    to: "/react-redux-form"
+  }, {
     name: "Multi-Language",
     to: "multi-language"
   }, {

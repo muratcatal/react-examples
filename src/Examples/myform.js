@@ -46,6 +46,7 @@ class MyForm extends Component {
                     <Grid item sm={12} xs={12}>
                         <TextField
                             id="name"
+                            fullWidth
                             margin="normal"
                             value={this.state.name}
                             onChange={(event) => {
@@ -55,6 +56,7 @@ class MyForm extends Component {
                     </Grid>
                     <Grid item sm={12} xs={12}>
                         <TextField
+                            fullWidth
                             id="surname"
                             margin="normal"
                             value={this.state.surname}
@@ -63,6 +65,7 @@ class MyForm extends Component {
                     </Grid>
                     <Grid item sm={12} xs={12}>
                         <TextField
+                            fullWidth
                             id="from"
                             margin="normal"
                             value={this.state.from}
