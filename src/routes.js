@@ -4,9 +4,11 @@ import Header from "./header";
 
 import PropType from "./Examples/PropType";
 import BrowserRouting from "./Examples/BrowserRouting";
+import Redux from './Examples/redux/index'
 
 const Routes = () => (
   <Switch>
+    <Route path="/" exact render={()=><h1>Welcome to React Examples!</h1>} />
     <Route
       path="/proptype"
       render={() => (
@@ -31,6 +33,7 @@ const Routes = () => (
         </div>
       )}
     />
+    <Route path="/redux" render={()=> <Redux />} />
     <Route render={() => <h1>Not implemented!</h1>} />
   </Switch>
 );

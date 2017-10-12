@@ -33,6 +33,10 @@ const examples = [
   {
     name: "Multi-Language",
     to: "multi-language"
+  },
+  {
+    name: "Styling",
+    to: "styling"
   }
 ];
 
