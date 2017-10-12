@@ -2,11 +2,11 @@ const initialState = {
     name: "This is initial name"
 }
 
-const testReducer = (state = initialState,action) => {
+const TestReducer = (state = initialState,action) => {
     switch(action.type){
-        case "TEST_ACTION":
+        case "A_TEST_ACTION":
             return { 
-                username : action.username
+                name : action.username
             }
         default:
         return state;
@@ -14,4 +14,4 @@ const testReducer = (state = initialState,action) => {
 }
 
 
-export default testReducer;
+export default TestReducer;

@@ -1,7 +1,7 @@
+// do not use math funcs in actions. make them as pure as they can be!
 export const testAction = (name) => {
-    console.log(name);
     return {
         type: "A_TEST_ACTION",
-        username: name
+        username: name + " " + (Math.random() * (100 - 1) + 1)
     }
 }

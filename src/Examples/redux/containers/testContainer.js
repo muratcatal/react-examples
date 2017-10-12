@@ -4,7 +4,7 @@ import {testAction} from '../actions/index'
 
 const mapStateToProps = state => {
     return {
-        name: state.username
+        name: state.TestReducer.name
     }
 }
 
