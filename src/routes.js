@@ -5,6 +5,7 @@ import Header from "./header";
 import PropType from "./Examples/PropType";
 import BrowserRouting from "./Examples/BrowserRouting";
 import Redux from './Examples/redux/index'
+import MyForm from './Examples/myform';
 
 const Routes = () => (
   <Switch>
@@ -34,6 +35,7 @@ const Routes = () => (
       )}
     />
     <Route path="/redux" render={()=> <Redux />} />
+    <Route path="/forms" render={()=> <MyForm />} />
     <Route render={() => <h1>Not implemented!</h1>} />
   </Switch>
 );
