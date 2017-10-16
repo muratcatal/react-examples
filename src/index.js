@@ -21,8 +21,11 @@ const styles = theme => ({
 
 const examples = [
   {
-    name: "HOC",
-    to: "/hoc"
+    name: "HOC-Props Proxy",
+    to: "/hoc-props-proxy"
+  }, {
+    name: "HOC-Inheritance Inversion",
+    to: "/hoc-inheritance-inversion"
   }, {
     name: "Prop-Types",
     to: "/proptype"
@@ -35,9 +38,6 @@ const examples = [
   }, {
     name: "Forms",
     to: "/forms"
-  }, {
-    name: "Redux Form",
-    to: "/redux-form"
   }, {
     name: "React-Redux Form",
     to: "/react-redux-form"
